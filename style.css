@@ -1,27 +1,27 @@
 html {
-  height: 100%;
+  height: 100%; /* the height and width of each line is the default one */
   width: 100%;
-  background-color: lightblue;
+  background-color: lightblue; /* the background is light blue*/ 
 }
 
 h2 {
-  text-align: center;
+  text-align: center; /* the text of heading 2 is aligned to the center*/
 }
 
 /* #heading will hold styling code that only pertains to items on the HTML file with the ID heading */
 nav {
-  background-color: white;
-  color: black;
-  padding: 5px;
-  text-align: center;
+  background-color: white; /* the font color is white*/
+  color: black; 
+  padding: 5px; /* the border is 5px thick*/
+  text-align: center; /* the text is aligned to the center*/
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: navy;
+  list-style-type: none; /* no list style type*/
+  margin: 0; /* margins size is 0*/
+  padding: 0; /* padding size is 0*/
+  overflow: hidden; /* any text that overflows off of the edges of the text area will be clipped out*/
+  background-color: navy; /*background color of the text area*/
 }
 
 li {
@@ -29,11 +29,11 @@ li {
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  display: block;/* text box will be displayed as a block*/ 
+  color: white; /* the font is white*/
+  text-align: center; /*the text will align towards the center*/
+  padding: 14px 16px; /* padding is 14 pixels by 16 pixels*/
+  text-decoration: none; /* no decoration/
 }
 
 /* .city1 will hold styling code that pertains to all items on the HTML file with the class city1, regardless of their tag */
@@ -49,7 +49,7 @@ li a {
   color: white;
   padding: 10px;
 } 
-
+/* this is the display of a picture in the website*/
 img {
   display: block;
   margin-left: auto;
